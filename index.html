@@ -63,24 +63,32 @@
 <div style="background: #ffffff; padding: 20px; border-radius: 15px; margin-top: 20px; border: 2px solid #1a73e8; direction: rtl; font-family: sans-serif;">
     <h3 style="color: #1a73e8; margin-top: 0;">📅 احجز ميعادك الآن</h3>
     
-    <form action="https://formspree.io/f/xwvwevje" method="POST">
-        <label>الاسم بالكامل:</label><br>
-        <input type="text" name="name" placeholder="اكتب اسمك هنا" required style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 8px; border: 1px solid #ccc; box-sizing: border-box;"><br>
+  <form action="https://formspree.io/f/xwvwevje" method="POST">
+    <label>الاسم بالكامل:</label><br>
+    <input type="text" name="name" placeholder="اكتب اسمك هنا" required style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 8px; border: 1px solid #ccc; box-sizing: border-box;"><br>
 
-        <label>رقم الموبايل:</label><br>
-        <input type="tel" name="phone" placeholder="رقم الموبايل" required style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 8px; border: 1px solid #ccc; box-sizing: border-box;"><br>
+    <label>رقم الموبايل:</label><br>
+    <input type="tel" name="phone" placeholder="رقم الموبايل" required style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 8px; border: 1px solid #ccc; box-sizing: border-box;"><br>
 
-        <label>اختر الخدمة:</label><br>
-        <select name="service" style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 8px; border: 1px solid #ccc; box-sizing: border-box;">
-            <option value="حلاقة شعر">حلاقة شعر</option>
-            <option value="حلاقة دقن">حلاقة دقن</option>
-            <option value="كيرلي">كيرلي</option>
-            <option value="استشوار">استشوار</option>
-            <option value="شعر ودقن">شعر ودقن</option>
-        </select><br>
+    <label>اختر اليوم:</label><br>
+    <input type="date" name="date" required style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 8px; border: 1px solid #ccc; box-sizing: border-box;"><br>
 
-        <button type="submit" style="background-color: #28a745; color: white; padding: 15px; border: none; border-radius: 8px; cursor: pointer; font-size: 18px; width: 100%; margin-top: 10px; font-weight: bold;">
-            تأكيد الحجز ✅
+    <label>اختر الساعة:</label><br>
+    <input type="time" name="time" required style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 8px; border: 1px solid #ccc; box-sizing: border-box;"><br>
+
+    <label>اختر الخدمة:</label><br>
+    <select name="service" style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 8px; border: 1px solid #ccc; box-sizing: border-box;">
+        <option value="حلاقة شعر">حلاقة شعر</option>
+        <option value="حلاقة دقن">حلاقة دقن</option>
+        <option value="كيرلي">كيرلي</option>
+        <option value="استشوار">استشوار</option>
+        <option value="شعر ودقن">شعر ودقن</option>
+    </select><br>
+
+    <button type="submit" style="background-color: #28a745; color: white; padding: 15px; border: none; border-radius: 8px; cursor: pointer; font-size: 18px; width: 100%; margin-top: 10px; font-weight: bold;">
+        تأكيد الحجز ✅
+    </button>
+</form>
         </button>
     </form>
 </div>
